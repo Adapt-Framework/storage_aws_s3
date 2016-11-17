@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <name>storage_aws_s3</name>
+        <label>Storage AWS S3</label>
+        <description>Stores files in Amazon Web Services S3</description>
+        <namespace>\adapt\storage_aws_s3</namespace>
+        <version>1.0.0</version>
+        <type>file_storage</type>
+        <copyright>2016 Matt Bruton</copyright>
+        <depends_on>
+            <bundle>
+                <name>aws_sdk</name>
+                <version>3.19</version>
+            </bundle>
+            <bundle>
+                <name>adapt</name>
+                <version>2</version>
+            </bundle>
+        </depends_on>
+    </bundle>
+</adapt_framework>
