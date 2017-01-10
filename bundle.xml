@@ -5,6 +5,8 @@
         <label>Storage AWS S3</label>
         <description>Stores files in Amazon Web Services S3</description>
         <namespace>\adapt\storage_aws_s3</namespace>
+        <version_status>release</version_status>
+        <availability>public</availability>
         <version>1.0.0</version>
         <type>file_storage</type>
         <copyright>2016 Matt Bruton</copyright>
